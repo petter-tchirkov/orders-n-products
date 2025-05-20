@@ -4,6 +4,8 @@
 
 <template>
   <div>
-    index
+    import
   </div>
 </template>
+
+<style scoped></style>

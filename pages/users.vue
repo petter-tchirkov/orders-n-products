@@ -4,6 +4,8 @@
 
 <template>
   <div>
-    index
+    users
   </div>
 </template>
+
+<style scoped></style>

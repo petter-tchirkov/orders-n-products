@@ -4,6 +4,8 @@
 
 <template>
   <div>
-    index
+    products
   </div>
 </template>
+
+<style scoped></style>

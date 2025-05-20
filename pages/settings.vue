@@ -4,6 +4,8 @@
 
 <template>
   <div>
-    index
+    settings
   </div>
 </template>
+
+<style scoped></style>

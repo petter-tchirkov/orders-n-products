@@ -4,6 +4,8 @@
 
 <template>
   <div>
-    index
+    groups
   </div>
 </template>
+
+<style scoped></style>

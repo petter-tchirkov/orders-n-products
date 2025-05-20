@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html,
+body {
+    font-family: 'Space Mono', monospace;
+    color: var(--color-base-content);
+}
+
+@plugin "daisyui" {
+    themes: kanagawa --default;
+}
+
+@plugin "daisyui/theme" {
+    name: "kanagawa";
+    default: true;
+    prefersdark: false;
+    color-scheme: "light";
+    --color-base-100: #1F1F28;
+    --color-base-200: #2A2A37;
+    --color-base-300: #363646;
+    --color-base-content: #DCD7BA;
+    --color-primary: #957FB8;
+    --color-primary-content: oklch(96% 0.018 272.314);
+    --color-secondary: #223249;
+    --color-secondary-content: oklch(94% 0.028 342.258);
+    --color-accent: #7E9CD8;
+    --color-accent-content: oklch(38% 0.063 188.416);
+    --color-neutral: #2D4F67;
+    --color-neutral-content: oklch(92% 0.004 286.32);
+    --color-info: #6A9589;
+    --color-info-content: oklch(29% 0.066 243.157);
+    --color-success: #76946A;
+    --color-success-content: oklch(37% 0.077 168.94);
+    --color-warning: #FF9E3B;
+    --color-warning-content: oklch(41% 0.112 45.904);
+    --color-error: #E82424;
+    --color-error-content: oklch(27% 0.105 12.094);
+    --radius-selector: 0.25rem;
+    --radius-field: 0.25rem;
+    --radius-box: 0.25rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --depth: 0;
+    --noise: 0;
+}
