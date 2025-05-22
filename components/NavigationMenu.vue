@@ -13,8 +13,9 @@ const menuItems = [
 <template>
   <aside
     class="self-stretch bg-base-100 rounded-xs p-4 transition-all duration-300"
-    :class="{ 'w-56': layout.sidebarVisibe, 'w-0': !layout.sidebarVisibe, '-translate-x-96': !layout.sidebarVisibe, 'overflow-hidden': !layout.sidebarVisibe }"
+    :class="{ 'w-56': layout.sidebarVisibe, 'w-0 -translate-x-96 overflow-hidden': !layout.sidebarVisibe }"
   >
+    <UserCount />
     <nav>
       <ul>
         <li v-for="(item, index) in menuItems" :key="index + item.title">

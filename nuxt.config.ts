@@ -7,4 +7,10 @@ export default defineNuxtConfig({
   modules: ['@nuxt/icon', '@pinia/nuxt', '@vueuse/nuxt'],
   css: ['~/assets/app.css'],
   vite: { plugins: [tailwindcss()] },
+  nitro: {
+    experimental: {
+      websocket: true,
+    },
+  },
 })
+
