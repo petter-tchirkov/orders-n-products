@@ -85,6 +85,60 @@
           }
         ],
         "date": "2017-07-01 09:05:00"
+      },
+      {
+        "id": 7,
+        "serialNumber": 7777,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/ssd1/200",
+        "title": "SSD NVMe 1TB",
+        "type": "Storage",
+        "status": 0,
+        "specification": "1TB NVMe PCIe Gen3, Read 3500MB/s, Write 3000MB/s",
+        "guarantee": {
+          "start": "2017-07-02 10:00:00",
+          "end": "2020-07-02 10:00:00"
+        },
+        "price": [
+          {
+            "value": 150,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 3900,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-02 10:00:00"
+      },
+      {
+        "id": 8,
+        "serialNumber": 8888,
+        "isNew": 0,
+        "photo": "https://picsum.photos/seed/ram1/200",
+        "title": "RAM DDR4 16GB Kit (Used)",
+        "type": "Components",
+        "status": 1,
+        "specification": "16GB (2x8GB) DDR4 3200MHz CL16",
+        "guarantee": {
+          "start": "2017-07-02 11:00:00",
+          "end": "2018-07-02 11:00:00"
+        },
+        "price": [
+          {
+            "value": 70,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 1820,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-02 11:00:00"
       }
     ]
   },
@@ -147,6 +201,60 @@
           }
         ],
         "date": "2017-07-02 14:00:00"
+      },
+      {
+        "id": 9,
+        "serialNumber": 9999,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/gpu1/200",
+        "title": "Graphics Card RTX 3060",
+        "type": "Components",
+        "status": 0,
+        "specification": "12GB GDDR6, Ray Tracing, DLSS",
+        "guarantee": {
+          "start": "2017-07-03 09:30:00",
+          "end": "2020-07-03 09:30:00"
+        },
+        "price": [
+          {
+            "value": 400,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 10400,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-03 09:30:00"
+      },
+      {
+        "id": 10,
+        "serialNumber": 1010,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/psu1/200",
+        "title": "Power Supply 750W Gold",
+        "type": "Components",
+        "status": 0,
+        "specification": "750W, 80+ Gold Certified, Modular",
+        "guarantee": {
+          "start": "2017-07-03 10:00:00",
+          "end": "2022-07-03 10:00:00"
+        },
+        "price": [
+          {
+            "value": 100,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 2600,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-03 10:00:00"
       }
     ]
   },
@@ -182,6 +290,586 @@
           }
         ],
         "date": "2017-07-03 11:00:00"
+      },
+      {
+        "id": 11,
+        "serialNumber": 1112,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/tablet1/200",
+        "title": "Tablet Pro 10",
+        "type": "Tablets",
+        "status": 0,
+        "specification": "10-inch Retina Display, A12 Bionic chip, 128GB",
+        "guarantee": {
+          "start": "2017-07-04 14:00:00",
+          "end": "2019-07-04 14:00:00"
+        },
+        "price": [
+          {
+            "value": 450,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 11700,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-04 14:00:00"
+      },
+      {
+        "id": 12,
+        "serialNumber": 1213,
+        "isNew": 0,
+        "photo": "https://picsum.photos/seed/phone1/200",
+        "title": "Smartphone X (Used)",
+        "type": "Smartphones",
+        "status": 1,
+        "specification": "6.1-inch OLED, Dual Camera, 64GB",
+        "guarantee": {
+          "start": "2017-07-04 15:00:00",
+          "end": "2018-01-04 15:00:00"
+        },
+        "price": [
+          {
+            "value": 300,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 7800,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-04 15:00:00"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Нове замовлення з електронікою",
+    "date": "2017-07-05 15:00:00",
+    "description": "desc for order 4",
+    "products": [
+      {
+        "id": 13,
+        "serialNumber": 1314,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/printer1/200",
+        "title": "Laser Printer Mono",
+        "type": "Printers",
+        "status": 0,
+        "specification": "Monochrome, 30ppm, USB/WiFi",
+        "guarantee": {
+          "start": "2017-07-05 16:00:00",
+          "end": "2019-07-05 16:00:00"
+        },
+        "price": [
+          {
+            "value": 120,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 3120,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-05 16:00:00"
+      },
+      {
+        "id": 14,
+        "serialNumber": 1415,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/scanner1/200",
+        "title": "Flatbed Scanner A4",
+        "type": "Scanners",
+        "status": 0,
+        "specification": "A4, 1200dpi, USB",
+        "guarantee": {
+          "start": "2017-07-05 16:30:00",
+          "end": "2019-07-05 16:30:00"
+        },
+        "price": [
+          {
+            "value": 70,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 1820,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-05 16:30:00"
+      },
+      {
+        "id": 15,
+        "serialNumber": 1516,
+        "isNew": 0,
+        "photo": "https://picsum.photos/seed/router1/200",
+        "title": "WiFi Router AC1200 (Refurbished)",
+        "type": "Networking",
+        "status": 1,
+        "specification": "Dual Band, AC1200, 4 Gigabit Ports",
+        "guarantee": {
+          "start": "2017-07-05 17:00:00",
+          "end": "2018-01-05 17:00:00"
+        },
+        "price": [
+          {
+            "value": 40,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 1040,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-05 17:00:00"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Ще одне велике замовлення на різні гаджети",
+    "date": "2017-07-10 10:00:00",
+    "description": "desc for order 5 - multiple gadgets",
+    "products": [
+      {
+        "id": 16,
+        "serialNumber": 1617,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/smartwatch1/200",
+        "title": "Smartwatch Fit Pro",
+        "type": "Wearables",
+        "status": 0,
+        "specification": "AMOLED Display, HR Monitor, GPS, 7-day battery",
+        "guarantee": {
+          "start": "2017-07-10 11:00:00",
+          "end": "2019-07-10 11:00:00"
+        },
+        "price": [
+          {
+            "value": 199,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 5174,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-10 11:00:00"
+      },
+      {
+        "id": 17,
+        "serialNumber": 1718,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/headphones1/200",
+        "title": "Noise Cancelling Headphones",
+        "type": "Audio",
+        "status": 0,
+        "specification": "Bluetooth 5.0, ANC, 20hr playtime",
+        "guarantee": {
+          "start": "2017-07-10 11:30:00",
+          "end": "2019-07-10 11:30:00"
+        },
+        "price": [
+          {
+            "value": 150,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 3900,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-10 11:30:00"
+      },
+      {
+        "id": 18,
+        "serialNumber": 1819,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/exthdd1/200",
+        "title": "External HDD 2TB",
+        "type": "Storage",
+        "status": 1,
+        "specification": "2TB, USB 3.0, Portable",
+        "guarantee": {
+          "start": "2017-07-10 12:00:00",
+          "end": "2020-07-10 12:00:00"
+        },
+        "price": [
+          {
+            "value": 80,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 2080,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-10 12:00:00"
+      },
+      {
+        "id": 19,
+        "serialNumber": 1920,
+        "isNew": 0,
+        "photo": "https://picsum.photos/seed/ebookreader1/200",
+        "title": "E-Book Reader (Used)",
+        "type": "Gadgets",
+        "status": 0,
+        "specification": "6-inch E-ink Display, WiFi, 8GB Storage",
+        "guarantee": {
+          "start": "2017-07-10 12:30:00",
+          "end": "2018-01-10 12:30:00"
+        },
+        "price": [
+          {
+            "value": 60,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 1560,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-10 12:30:00"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Замовлення на ігрову консоль та аксесуари",
+    "date": "2017-07-12 09:30:00",
+    "description": "desc for order 6 - gaming setup",
+    "products": [
+      {
+        "id": 20,
+        "serialNumber": 2021,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/console1/200",
+        "title": "Gaming Console NextGen",
+        "type": "Gaming Consoles",
+        "status": 0,
+        "specification": "8K HDR, 1TB SSD, Ray Tracing Capable",
+        "guarantee": {
+          "start": "2017-07-12 10:00:00",
+          "end": "2019-07-12 10:00:00"
+        },
+        "price": [
+          {
+            "value": 499,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 12974,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-12 10:00:00"
+      },
+      {
+        "id": 21,
+        "serialNumber": 2122,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/controller1/200",
+        "title": "Wireless Game Controller",
+        "type": "Peripherals",
+        "status": 0,
+        "specification": "Haptic Feedback, Adaptive Triggers, USB-C",
+        "guarantee": {
+          "start": "2017-07-12 10:05:00",
+          "end": "2018-07-12 10:05:00"
+        },
+        "price": [
+          {
+            "value": 69,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 1794,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-12 10:05:00"
+      },
+      {
+        "id": 22,
+        "serialNumber": 2223,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/gamingheadset1/200",
+        "title": "Gaming Headset Surround",
+        "type": "Audio",
+        "status": 0,
+        "specification": "7.1 Surround Sound, Noise-Cancelling Mic, Wireless",
+        "guarantee": {
+          "start": "2017-07-12 10:10:00",
+          "end": "2019-07-12 10:10:00"
+        },
+        "price": [
+          {
+            "value": 120,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 3120,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-12 10:10:00"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Замовлення для домашнього офісу",
+    "date": "2017-07-15 14:00:00",
+    "description": "desc for order 7 - home office setup",
+    "products": [
+      {
+        "id": 23,
+        "serialNumber": 2324,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/ultrawide1/200",
+        "title": "Ultrawide Monitor 34-inch",
+        "type": "Monitors",
+        "status": 0,
+        "specification": "34-inch, QHD, 100Hz, Curved",
+        "guarantee": {
+          "start": "2017-07-15 14:30:00",
+          "end": "2020-07-15 14:30:00"
+        },
+        "price": [
+          {
+            "value": 550,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 14300,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-15 14:30:00"
+      },
+      {
+        "id": 24,
+        "serialNumber": 2425,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/dockstation1/200",
+        "title": "USB-C Docking Station",
+        "type": "Peripherals",
+        "status": 0,
+        "specification": "10-in-1, HDMI, Ethernet, USB 3.0, PD Charging",
+        "guarantee": {
+          "start": "2017-07-15 14:35:00",
+          "end": "2019-07-15 14:35:00"
+        },
+        "price": [
+          {
+            "value": 90,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 2340,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-15 14:35:00"
+      },
+      {
+        "id": 25,
+        "serialNumber": 2526,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/ergokeyboard1/200",
+        "title": "Ergonomic Keyboard Wireless",
+        "type": "Peripherals",
+        "status": 1,
+        "specification": "Split Design, Cushioned Palm Rest, Bluetooth",
+        "guarantee": {
+          "start": "2017-07-15 14:40:00",
+          "end": "2019-07-15 14:40:00"
+        },
+        "price": [
+          {
+            "value": 130,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 3380,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-15 14:40:00"
+      },
+      {
+        "id": 26,
+        "serialNumber": 2627,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/officechair1/200",
+        "title": "Ergonomic Office Chair",
+        "type": "Furniture",
+        "status": 0,
+        "specification": "Mesh Back, Lumbar Support, Adjustable Armrests",
+        "guarantee": {
+          "start": "2017-07-15 14:45:00",
+          "end": "2020-07-15 14:45:00"
+        },
+        "price": [
+          {
+            "value": 250,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 6500,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-15 14:45:00"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Замовлення на фото та відео обладнання",
+    "date": "2017-07-18 11:00:00",
+    "description": "desc for order 8 - photo/video gear",
+    "products": [
+      {
+        "id": 27,
+        "serialNumber": 2728,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/dslr1/200",
+        "title": "DSLR Camera Pro",
+        "type": "Cameras",
+        "status": 0,
+        "specification": "24MP Full-Frame Sensor, 4K Video, 5-axis IBIS",
+        "guarantee": {
+          "start": "2017-07-18 11:30:00",
+          "end": "2020-07-18 11:30:00"
+        },
+        "price": [
+          {
+            "value": 1800,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 46800,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-18 11:30:00"
+      },
+      {
+        "id": 28,
+        "serialNumber": 2829,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/lens1/200",
+        "title": "Prime Lens 50mm f/1.8",
+        "type": "Lenses",
+        "status": 0,
+        "specification": "50mm Focal Length, f/1.8 Aperture, Fast Autofocus",
+        "guarantee": {
+          "start": "2017-07-18 11:35:00",
+          "end": "2019-07-18 11:35:00"
+        },
+        "price": [
+          {
+            "value": 200,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 5200,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-18 11:35:00"
+      },
+      {
+        "id": 29,
+        "serialNumber": 2930,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/tripod1/200",
+        "title": "Professional Tripod",
+        "type": "Accessories",
+        "status": 0,
+        "specification": "Carbon Fiber, Fluid Head, Max Height 1.8m",
+        "guarantee": {
+          "start": "2017-07-18 11:40:00",
+          "end": "2019-07-18 11:40:00"
+        },
+        "price": [
+          {
+            "value": 250,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 6500,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-18 11:40:00"
+      },
+      {
+        "id": 30,
+        "serialNumber": 3031,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/mic1/200",
+        "title": "Shotgun Microphone",
+        "type": "Audio",
+        "status": 1,
+        "specification": "Supercardioid, Windscreen, Shock Mount",
+        "guarantee": {
+          "start": "2017-07-18 11:45:00",
+          "end": "2019-07-18 11:45:00"
+        },
+        "price": [
+          {
+            "value": 180,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 4680,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-18 11:45:00"
       }
     ]
   }
