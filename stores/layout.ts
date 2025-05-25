@@ -1,9 +1,5 @@
-
-
-
 export const useLayout = defineStore('layout', () => {
-    const sidebarVisibe = ref(true)
+  const sidebarVisibe = ref(true)
 
-
-    return {sidebarVisibe}
+  return { sidebarVisibe }
 })

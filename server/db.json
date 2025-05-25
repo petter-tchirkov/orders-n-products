@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "title": "Досить таки довга назва як для замовлення",
+    "date": "2017-06-29 12:09:33",
+    "description": "desc for order 1",
+    "products": [
+      {
+        "id": 1,
+        "serialNumber": 1234,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/product1/200",
+        "title": "Product 1 - Monitor A",
+        "type": "Monitors",
+        "status": 0,
+        "specification": "27-inch, 4K IPS",
+        "guarantee": {
+          "start": "2017-06-29 12:09:33",
+          "end": "2019-06-29 12:09:33"
+        },
+        "price": [
+          {
+            "value": 300,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 7800,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-06-29 12:09:33"
+      },
+      {
+        "id": 3,
+        "serialNumber": 5678,
+        "isNew": 1,
+        "photo": "https://picsum.photos/id/201/200",
+        "title": "Laptop Pro 15",
+        "type": "Laptops",
+        "status": 0,
+        "specification": "15-inch, Core i7, 16GB RAM, 512GB SSD",
+        "guarantee": {
+          "start": "2017-07-01 09:00:00",
+          "end": "2020-07-01 09:00:00"
+        },
+        "price": [
+          {
+            "value": 1200,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 31200,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-01 09:00:00"
+      },
+      {
+        "id": 6,
+        "serialNumber": 3141,
+        "isNew": 1,
+        "status": 1,
+        "photo": "https://picsum.photos/seed/webcam1/200",
+        "title": "Webcam HD Pro",
+        "type": "Peripherals",
+        "specification": "1080p, 30fps, Built-in Mic",
+        "guarantee": {
+          "start": "2017-07-01 09:05:00",
+          "end": "2019-07-01 09:05:00"
+        },
+        "price": [
+          {
+            "value": 60,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 1560,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-01 09:05:00"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ця теж нічого така по довжині",
+    "date": "2017-06-30 10:15:00",
+    "description": "desc for order 2",
+    "products": [
+      {
+        "id": 2,
+        "serialNumber": 1235,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/product2/200",
+        "title": "Product 2 - Monitor B",
+        "type": "Monitors",
+        "status": 0,
+        "specification": "24-inch, FHD VA",
+        "guarantee": {
+          "start": "2017-06-30 10:15:00",
+          "end": "2019-06-30 10:15:00"
+        },
+        "price": [
+          {
+            "value": 150,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 3900,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-06-30 10:15:00"
+      },
+      {
+        "id": 4,
+        "serialNumber": 9101,
+        "isNew": 0,
+        "photo": "https://picsum.photos/seed/keyboard1/200",
+        "title": "Mechanical Keyboard GX",
+        "type": "Peripherals",
+        "status": 1,
+        "specification": "RGB, Blue Switches",
+        "guarantee": {
+          "start": "2017-07-02 14:00:00",
+          "end": "2018-07-02 14:00:00"
+        },
+        "price": [
+          {
+            "value": 80,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 2080,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-02 14:00:00"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Да, зазвичай вони коротші, такі часи",
+    "date": "2017-07-01 09:00:00",
+    "description": "desc for order 3",
+    "products": [
+      {
+        "id": 5,
+        "serialNumber": 1121,
+        "isNew": 1,
+        "photo": "https://picsum.photos/seed/mouse1/200",
+        "title": "Gaming Mouse M5",
+        "type": "Peripherals",
+        "status": 1,
+        "specification": "16000 DPI, 7 Buttons",
+        "guarantee": {
+          "start": "2017-07-03 11:00:00",
+          "end": "2019-07-03 11:00:00"
+        },
+        "price": [
+          {
+            "value": 50,
+            "symbol": "USD",
+            "isDefault": 0
+          },
+          {
+            "value": 1300,
+            "symbol": "UAH",
+            "isDefault": 1
+          }
+        ],
+        "date": "2017-07-03 11:00:00"
+      }
+    ]
+  }
+]

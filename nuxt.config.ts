@@ -1,6 +1,6 @@
 import tailwindcss from '@tailwindcss/vite'
 // https://nuxt.com/docs/api/configuration/nuxt-config
-// eslint-disable-next-line no-undef
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
@@ -12,5 +12,7 @@ export default defineNuxtConfig({
       websocket: true,
     },
   },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
 })
-

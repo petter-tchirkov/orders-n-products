@@ -4,6 +4,6 @@ const { data } = useWebSocket(`ws://${location.host}/api/user-count`)
 
 <template>
   <p class="text-xs pl-2 mb-29">
-    Користувачів онлайн: {{ data }}
+    Онлайн: {{ data }}
   </p>
 </template>
