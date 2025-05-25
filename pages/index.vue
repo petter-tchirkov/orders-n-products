@@ -1,5 +1,6 @@
 <script setup lang="ts">
-const { data, pending, error } = await useFetch('/api/orders')
+const { pending, error } = await useOrders()
+const orders = useOrdersStore().orders
 </script>
 
 <template>
@@ -14,7 +15,7 @@ const { data, pending, error } = await useFetch('/api/orders')
       Error: {{ error.message }}
     </div>
     <div v-else class="flex flex-col gap-3">
-      <order-container v-for="order in data" :key="order.id" :order="order" />
+      <order-container v-for="order in orders" :key="order.id" :order="order" />
     </div>
   </section>
 </template>

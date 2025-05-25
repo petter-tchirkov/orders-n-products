@@ -1,20 +1,17 @@
 <script setup lang="ts">
-import type { Product } from '~/types/order'
+const { error, pending } = await useProducts()
 
-const { data, error, pending } = await useFetch<Product[]>('/api/products')
-
-const getProductTypes = computed(() => {
-  if (!data.value) {
-    return []
-  }
-  return Array.from(new Set(data.value.map(product => product.type)))
-})
-
+const products = computed(() => useProductsStore().products)
 const filterKey = ref('')
 
-const filteredProducts = computed(() => {
-  return data.value?.filter(product => product.type.includes(filterKey.value))
+const getProductTypes = computed(() => {
+  if (!products.value) {
+    return []
+  }
+  return Array.from(new Set(products.value.map(product => product.type)))
 })
+
+const filteredProducts = computed(() => products.value?.filter(product => product.type.includes(filterKey.value)))
 </script>
 
 <template>
