@@ -7,7 +7,7 @@ function toggleSidebar() {
 </script>
 
 <template>
-  <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar bg-base-100 shadow-sm sticky top-0 left-0">
     <button class="btn btn-square bg-transparent border-none hover:bg-base-300" @click="toggleSidebar">
       <Icon name="lucide:menu" size="40" />
     </button>
