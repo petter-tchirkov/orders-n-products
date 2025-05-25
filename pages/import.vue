@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    import
-  </div>
+  <app-under-development />
 </template>
 
 <style scoped></style>

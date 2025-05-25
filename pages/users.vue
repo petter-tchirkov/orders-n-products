@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    users
-  </div>
+  <app-under-development />
 </template>
 
 <style scoped></style>

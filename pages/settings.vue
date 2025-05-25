@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    settings
-  </div>
+  <app-under-development />
 </template>
 
 <style scoped></style>

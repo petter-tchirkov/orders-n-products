@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    groups
-  </div>
+  <app-under-development />
 </template>
 
 <style scoped></style>
