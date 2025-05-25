@@ -16,11 +16,14 @@ const filteredProducts = computed(() => products.value?.filter(product => produc
 
 <template>
   <section>
+    <app-page-title>
+      Продукти
+    </app-page-title>
     <p v-if="pending">
-      Loading...
+      Завантаження...
     </p>
     <p v-else-if="error">
-      Error: {{ error.message }}
+      Помилка: {{ error.message }}
     </p>
     <article v-else>
       <app-dropdown :options="getProductTypes" class="mb-10" @filter="filterKey = $event" />

@@ -5,14 +5,14 @@ const orders = useOrdersStore().orders
 
 <template>
   <section>
-    <h1 class="font-bold text-3xl mb-8">
+    <app-page-title>
       Постачання
-    </h1>
+    </app-page-title>
     <div v-if="pending">
-      Завантаження
+      Завантаження...
     </div>
     <div v-else-if="error">
-      Error: {{ error.message }}
+      Помилка: {{ error.message }}
     </div>
     <div v-else class="flex flex-col gap-3">
       <order-container v-for="order in orders" :key="order.id" :order="order" />
