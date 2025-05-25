@@ -16,16 +16,16 @@ The websocket implementation is also done via Nitro
 - There is only one layout, but in case of scaling we have a base for adding other
 layouts without overwriting anything.
 - Reusable functions are presented as composables to keep
-  (DRY)[https://en.wikipedia.org/wiki/Don%27t_repeat_yourself]
+  [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 - There are visions in the frontend community on how to organize stores. I
   prefer to keep them small and only **STORE** data so data fetching is done with
   composables that fetch the api and put data into a corresponding store. The
   project scope is small so we could neglect stores at all, but again, thinking
   about scaling
-- Application uses (TailwindCSS)[https://tailwindcss.com/] as the main CSS
-  utility and (DaisyUI)[https://daisyui.com/] for theming and premade primitives
+- Application uses [TailwindCSS](https://tailwindcss.com/) as the main CSS
+  utility and [DaisyUI](https://daisyui.com/) for theming and premade primitives
 - Project colorscheme is inspired by the awesome
-  (Kanagawa)[https://github.com/rebelot/kanagawa.nvim] theme for Neovim
-- Linting and formatting is done by (eslint)[https://eslint.org/] and
-  (eslint-stylistic)[https://eslint.style/] respectively. The config is created
-  by a (Anthony Fu)[https://github.com/antfu], the Vue/core and Nuxt contributor
+  [Kanagawa](https://github.com/rebelot/kanagawa.nvim) theme for Neovim
+- Linting and formatting is done by [eslint](https://eslint.org/) and
+  [eslint-stylistic](https://eslint.style/) respectively. The config is created
+  by a [Anthony Fu](https://github.com/antfu), the Vue/core and Nuxt contributor
