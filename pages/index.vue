@@ -15,7 +15,7 @@ const orders = useOrdersStore().orders
       Помилка: {{ error.message }}
     </div>
     <div v-else class="flex flex-col gap-3">
-      <order-container v-for="order in orders" :key="order.id" :order="order" />
+      <order-table :data="orders" />
     </div>
   </section>
 </template>

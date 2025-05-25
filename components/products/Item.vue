@@ -1,21 +1,9 @@
 <script setup lang="ts">
-import type { Product } from '~/types/order'
+import type { Product } from '~/types/product'
 
 const props = defineProps<{
   product: Product
 }>()
-
-const getProductStatus = computed(() => {
-  switch (props.product.status) {
-    case 0:
-      return 'В ремонті'
-    case 1:
-      return 'В наявності'
-    default:
-      break
-  }
-  return 'Невідомо'
-})
 </script>
 
 <template>
@@ -28,7 +16,7 @@ const getProductStatus = computed(() => {
       </p>
     </div>
     <span class="badge" :class="{ 'badge-success': product.status === 1, 'badge-warning': product.status === 0 }">
-      {{ getProductStatus }}
+      {{ getProductStatus(product.status) }}
     </span>
     <div class="flex flex-col">
       <p>з {{ useDateFormat(props.product.guarantee.start, 'DD.MM.YYYY') }}</p>
