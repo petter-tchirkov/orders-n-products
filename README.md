@@ -5,11 +5,12 @@ This is a simple [Nuxt 3](https://nuxt.com/) project that shows company's orders
 and products these orders consist of.
 
 ### Backend
-This project doesn't have a dedicated backend application because the size and
+- This project doesn't have a dedicated backend application because the size and
 scope don't fit the effort. For API requests it uses [Nitro server
-engine](https://nuxt.com/docs/getting-started/server) that is buil-in in Nuxt 3
-applications.
-The websocket implementation is also done via Nitro
+engine](https://nuxt.com/docs/getting-started/server) that is buil-in to Nuxt 3
+- The websocket implementation is also done via Nitro. It's experimental and not
+  suitable for serious production
+- "Database" is a dummy server/db.json file
 
 ### Frontend
 - Nuxt implements file-based routing strategy and this project implements it.
